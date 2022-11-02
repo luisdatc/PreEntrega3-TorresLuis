@@ -1,0 +1,20 @@
+{
+  "name": "preentrega3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisdatc/PreEntrega3-TorresLuis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisdatc/PreEntrega3-TorresLuis/issues"
+  },
+  "homepage": "https://github.com/luisdatc/PreEntrega3-TorresLuis#readme"
+}

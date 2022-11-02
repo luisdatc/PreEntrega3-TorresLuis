@@ -1,0 +1,41 @@
+footer {
+  background-color: $color5;
+  padding-top: 0.5rem;
+  .footer-link {
+    padding: 0 2rem;
+    font-size: 2rem;
+    color: $color4;
+    text-decoration: none;
+    &:hover {
+      color: $color1;
+      border-bottom: 1px solid $color1;
+      font-weight: 700;
+    }
+  }
+}
+
+.iconos {
+  align-self: center;
+  cursor: pointer;
+  .fa-brands {
+    font-size: 2rem;
+    margin: 0 4rem;
+    color: $color4;
+    text-decoration: none;
+    &:hover {
+      color: $color1;
+      font-weight: 700;
+      border-bottom: 1px solid $color1;
+    }
+  }
+}
+
+.footer-location {
+  color: #f2f2f2;
+  font-size: 2rem;
+}
+.footer-copyright {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+}
