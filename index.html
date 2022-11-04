@@ -82,9 +82,72 @@
       <main>
         <!-- SLICE DE IMAGENES -->
         <div class="slice">
-          <img class="slice__img img-fluid" src="assets/60.jpg" alt="Slide1" />
+          <div
+            id="carouselExampleIndicators"
+            class="carousel carousel-dark slide"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/60.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/8.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/70.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+                    <!--<img class="slice__img img-fluid" src="assets/60.jpg" alt="Slide1" />
           <img class="slice__img img-fluid" src="assets/8.jpg" alt="Slide2" />
-          <!-- 
+ 
           <img class="slice__img" src="assets/81.jpg" alt="Slide3" />
           <img class="slice__img" src="assets/69.jpg" alt="Slide3" />
          -->
@@ -97,12 +160,36 @@
         <h2 class="tittle">Productos Destacados</h2>
         <!-- IMAGENES DE LOS PRODUCTOS DESTACADOS -->
         <div class="productos__destacados">
-          <img class="productos__destacados--img img-fluid" src="assets/64.jpg" alt="Producto Destacado 1" />
-          <img class="productos__destacados--img" src="assets/65.jpg" alt="Producto Destacado 2" />
-          <img class="productos__destacados--img" src="assets/67.jpg" alt="Producto Destacado 3" />
-          <img class="productos__destacados--img" src="assets/69.jpg" alt="Producto Destacado 4" />
-          <img class="productos__destacados--img" src="assets/51.jpg" alt="Producto Destacado 5" />
-          <img class="productos__destacados--img" src="assets/61.jpg" alt="Producto Destacado 6" />
+          <img
+            class="productos__destacados--img img-fluid"
+            src="assets/64.jpg"
+            alt="Producto Destacado 1"
+          />
+          <img
+            class="productos__destacados--img"
+            src="assets/65.jpg"
+            alt="Producto Destacado 2"
+          />
+          <img
+            class="productos__destacados--img"
+            src="assets/67.jpg"
+            alt="Producto Destacado 3"
+          />
+          <img
+            class="productos__destacados--img"
+            src="assets/69.jpg"
+            alt="Producto Destacado 4"
+          />
+          <img
+            class="productos__destacados--img"
+            src="assets/51.jpg"
+            alt="Producto Destacado 5"
+          />
+          <img
+            class="productos__destacados--img"
+            src="assets/61.jpg"
+            alt="Producto Destacado 6"
+          />
         </div>
       </article>
     </section>
@@ -111,18 +198,66 @@
       <article>
         <h2 class="tittle">Algunas de Nuestra Variedad de Productos</h2>
         <div class="products__variety">
-          <img class="products__variety--img" src="assets/65.jpg" alt="Productos Variados 1" />
-          <img class="products__variety--img" src="assets/68.jpg" alt="Productos Variados 2" />
-          <img class="products__variety--img" src="assets/80.jpg" alt="Productos Variados 3" />
-          <img class="products__variety--img" src="assets/71.jpg" alt="Productos Variados 4" />
-          <img class="products__variety--img" src="assets/62.jpg" alt="Productos Variados 5" />
-          <img class="products__variety--img" src="assets/68.jpg" alt="Productos Variados 6" />
-          <img class="products__variety--img" src="assets/82.jpg" alt="Productos Variados 7" />
-          <img class="products__variety--img" src="assets/64.jpg" alt="Productos Variados 8" />
-          <img class="products__variety--img" src="assets/3.jpg" alt="Productos Variados 9" />
-          <img class="products__variety--img" src="assets/33.jpg" alt="Productos Variados 10" />
-          <img class="products__variety--img" src="assets/35.jpg" alt="Productos Variados 11" />
-          <img class="products__variety--img" src="assets/62.jpg" alt="Productos Variados 12" />
+          <img
+            class="products__variety--img"
+            src="assets/65.jpg"
+            alt="Productos Variados 1"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/68.jpg"
+            alt="Productos Variados 2"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/80.jpg"
+            alt="Productos Variados 3"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/71.jpg"
+            alt="Productos Variados 4"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/62.jpg"
+            alt="Productos Variados 5"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/68.jpg"
+            alt="Productos Variados 6"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/82.jpg"
+            alt="Productos Variados 7"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/64.jpg"
+            alt="Productos Variados 8"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/3.jpg"
+            alt="Productos Variados 9"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/33.jpg"
+            alt="Productos Variados 10"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/35.jpg"
+            alt="Productos Variados 11"
+          />
+          <img
+            class="products__variety--img"
+            src="assets/62.jpg"
+            alt="Productos Variados 12"
+          />
         </div>
       </article>
     </section>
