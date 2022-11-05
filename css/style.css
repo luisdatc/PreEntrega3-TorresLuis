@@ -68,7 +68,8 @@ body {
   max-width: 100%;
   font-style: normal;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4rem;
+  color: #056830;
 }
 
 .productos__destacados--img {
@@ -162,8 +163,9 @@ footer .footer-link:hover {
 .main-tittle h1 {
   text-align: center;
   margin-top: 1.5rem;
-  font-size: 4rem;
+  font-size: 5rem;
   color: #056830;
+  font-weight: 700;
 }
 
 .description-history, .history-list {
@@ -194,7 +196,9 @@ footer .footer-link:hover {
   padding: 2rem 0;
 }
 .sucursal-main-location .location {
-  font-size: 3.5rem;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #056830;
 }
 
 .sucursal-section {
@@ -212,7 +216,7 @@ footer .footer-link:hover {
 }
 
 .description {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .allies-location {
@@ -227,6 +231,11 @@ footer .footer-link:hover {
   text-align: center;
 }
 
+@media (max-width: 575px) {
+  .location-order div:first-child {
+    order: 3;
+  }
+}
 .contact-section {
   padding: 2rem 2rem;
 }
@@ -235,14 +244,15 @@ footer .footer-link:hover {
   padding: 2rem 2rem;
 }
 
+.form-tittle {
+  text-align: center;
+  font-size: 4rem;
+  color: #056830;
+  font-weight: 700;
+}
+
 .section-form {
   margin: auto;
-}
-.section-form .form-tittle {
-  text-align: center;
-  font-size: 3rem;
-  color: #26a65d;
-  font-weight: 700;
 }
 
 .form-control:focus,
@@ -282,7 +292,7 @@ option {
   border-color: #26a65d;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .contact-img {
     display: none;
   }
@@ -294,6 +304,7 @@ option {
 .products-tittle h1, .products-tittle h2 {
   font-size: 4rem;
   font-weight: 700;
+  color: #056830;
 }
 
 .brunch-img {
@@ -303,6 +314,12 @@ option {
 .products-description {
   font-size: 2.5rem;
   text-align: justify;
+}
+
+.products-text {
+  font-size: 2.5rem;
+  text-align: justify;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
