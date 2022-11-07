@@ -10,8 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/luisdatc/PreEntrega3-TorresLuis.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Cedric Grolet",
+    "Patisserie",
+    "Brunch",
+    "Dulces",
+    "Pasteleria"
+  ],
+  "author": "Luis Torres",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/luisdatc/PreEntrega3-TorresLuis/issues"
